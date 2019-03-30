@@ -13,10 +13,9 @@ class Tile(Enum):
 
 class GameMap(object):
 
-    iSize = 1
-    Map = []
 
     def __init__(self,iSizeIn):
+        self.Map = []
         self.iSize = iSizeIn
         for i in range(0,self.iSize):
             x = []
